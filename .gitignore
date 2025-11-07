@@ -1,0 +1,32 @@
+# Python
+__pycache__/
+*.py[cod]
+*.so
+
+# Environments
+.venv/
+venv/
+.env
+
+# OS/IDE
+.DS_Store
+.vscode/
+.vscode-server/
+.idea/
+*.swp
+
+# Logs and outputs
+logs/
+log/
+output/
+data/
+*.log
+
+# Cache / build
+.cache/
+dist/
+build/
+
+# Local tools
+.cursor/
+.trae*/

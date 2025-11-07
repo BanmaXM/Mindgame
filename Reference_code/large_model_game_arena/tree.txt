@@ -1,0 +1,49 @@
+large_model_game_arena/
+│
+├── data/                                 # 存储所有收集到的比赛数据
+│   ├── colonel_blotto/
+│   │   └── 2025-09-29_14-30-00/          # 按时间戳保存每一次运行的结果
+│   │       ├── game_log.jsonl          # 记录详细的每回合交互
+│   │       └── summary.csv             # 记录该次运行的总结
+│   │
+│   └── three_player_ipd/
+│       └── ...
+│
+├── main_colonel_blotto.py                # 上校博弈数据收集的主入口脚本
+├── main_three_player_ipd.py              # 三人囚徒困境数据收集的主入口脚本
+│
+├── config.yaml                           # 全局配置文件，用于设置实验参数
+│
+├── agents/                               # Agent 的定义
+│   ├── base_agent.py                     # Agent 的基类，定义通用接口
+│   ├── agent_0.py                        # 我们的 Agent，从 A 池选择模型和Prompt
+│   └── opponent_agent.py                 # 对手 Agent，从 B 池选择模型和Prompt
+│
+├── model_pool/                           # 模型池
+│   ├── pool_A/                           # 我方使用的强模型池
+│   │   ├── api/
+│   │   │   └── gpt-4o.yaml               # API 模型的配置文件
+│   │   └── local/
+│   │       └── llama3_70b_instruct.py    # 本地模型的加载脚本或配置
+│   │
+│   └── pool_B/                           # 对手使用的模型池
+│       ├── api/
+│       │   ├── gpt-3.5-turbo.yaml
+│       │   └── gemini-pro.yaml
+│       └── local/
+│           └── qwen2_7b.py
+│
+├── prompt_pool/                          # Prompt 池
+    ├── colonel_blotto/
+    │   ├── pool_A/
+    │   │   ├── advanced_strategy.txt
+    │   │   └── zero_shot_cot.txt
+    │   └── pool_B/
+    │       ├── simple_role_play.txt
+    │       └── direct_command.txt
+    │
+    └── three_player_ipd/
+        ├── pool_A/
+        │   └── ...
+        └── pool_B/
+            └── ...

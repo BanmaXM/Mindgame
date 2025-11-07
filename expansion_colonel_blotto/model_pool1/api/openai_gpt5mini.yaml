@@ -1,0 +1,8 @@
+model: "qwen/qwen3-32b"
+api_key: "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"
+api_base: "https://openrouter.ai/api/v1"
+temperature: 0.7
+max_tokens: 16000
+top_p: 1.0
+frequency_penalty: 0
+presence_penalty: 0

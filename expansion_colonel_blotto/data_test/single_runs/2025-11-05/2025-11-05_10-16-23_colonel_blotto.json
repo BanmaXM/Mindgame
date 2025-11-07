@@ -1,0 +1,13 @@
+{
+  "game_name": "colonel_blotto",
+  "timestamp": "2025-11-05T10:16:23.032774",
+  "steps": [
+    {
+      "step_num": 0,
+      "player_id": 0,
+      "timestamp": "2025-11-05T10:16:22.826713",
+      "observation": [
+        [
+          -1,
+          "You are Commander Alpha in a game of ColonelBlotto. Each round, you can allocate up to 20 units across fields: A, B, C\nFormat: '[A4 B2 C2]'\nWin the majority of fields to win the round!",
+          

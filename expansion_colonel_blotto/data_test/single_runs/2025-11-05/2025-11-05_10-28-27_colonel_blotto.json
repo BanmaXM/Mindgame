@@ -1,0 +1,109 @@
+{
+  "game_name": "colonel_blotto",
+  "timestamp": "2025-11-05T10:28:27.338147",
+  "steps": [
+    {
+      "step_num": 0,
+      "player_id": 0,
+      "timestamp": "2025-11-05T10:28:27.131528",
+      "observation": [
+        [
+          -1,
+          "You are Commander Alpha in a game of ColonelBlotto. Each round, you can allocate up to 20 units across fields: A, B, C\nFormat: '[A4 B2 C2]'\nWin the majority of fields to win the round!",
+          "PROMPT"
+        ],
+        [
+          -1,
+          "=== COLONEL BLOTTO - Round 1/10 ===\nRounds Won - Commander Alpha: 0, Commander Beta: 0\nAvailable fields: A, B, C\nUnits to allocate: 20\nFormat: '[A4 B2 C2]'.",
+          "GAME_BOARD"
+        ]
+      ],
+      "action": "An error occurred: Object of type ObservationType is not JSON serializable",
+      "model_input": {
+        "system_prompt": "# GAME: Colonel Blotto\n\n## Goal\nTwo players simultaneously allocate 20 troops across three battlefields (A, B, C). Win two battlefields per round.\n\n- Think privately in <think>...</think>, then ONLY output the action line.\n\n### Output Format (Strict)\n- ONLY output one line: `[Ax By Cz]` where x+y+z=20 and each ≥0.\n- Do NOT include explanations or any extra text after </think>.",
+        "user_message": [
+          [
+            -1,
+            "You are Commander Alpha in a game of ColonelBlotto. Each round, you can allocate up to 20 units across fields: A, B, C\nFormat: '[A4 B2 C2]'\nWin the majority of fields to win the round!",
+            "PROMPT"
+          ],
+          [
+            -1,
+            "=== COLONEL BLOTTO - Round 1/10 ===\nRounds Won - Commander Alpha: 0, Commander Beta: 0\nAvailable fields: A, B, C\nUnits to allocate: 20\nFormat: '[A4 B2 C2]'.",
+            "GAME_BOARD"
+          ]
+        ],
+        "model": "deepseek/deepseek-v3.2-exp",
+        "was_summarised": false
+      },
+      "model_output": {
+        "response": "An error occurred: Object of type ObservationType is not JSON serializable"
+      }
+    },
+    {
+      "step_num": 1,
+      "player_id": 0,
+      "timestamp": "2025-11-05T10:28:27.336869",
+      "observation": [
+        [
+          0,
+          "An error occurred: Object of type ObservationType is not JSON serializable",
+          "PLAYER_ACTION"
+        ],
+        [
+          -1,
+          "Player 0 attempted an invalid move. Reason: Invalid input format. Use: A:5, B:10, C:5 Please resubmit a valid move and remember to follow the game rules to avoid penalties.",
+          "GAME_ADMIN"
+        ]
+      ],
+      "action": "An error occurred: Object of type ObservationType is not JSON serializable",
+      "model_input": {
+        "system_prompt": "# GAME: Colonel Blotto\n\n## Goal\nTwo players simultaneously allocate 20 troops across three battlefields (A, B, C). Win two battlefields per round.\n\n- Think privately in <think>...</think>, then ONLY output the action line.\n\n### Output Format (Strict)\n- ONLY output one line: `[Ax By Cz]` where x+y+z=20 and each ≥0.\n- Do NOT include explanations or any extra text after </think>.",
+        "user_message": [
+          [
+            0,
+            "An error occurred: Object of type ObservationType is not JSON serializable",
+            "PLAYER_ACTION"
+          ],
+          [
+            -1,
+            "Player 0 attempted an invalid move. Reason: Invalid input format. Use: A:5, B:10, C:5 Please resubmit a valid move and remember to follow the game rules to avoid penalties.",
+            "GAME_ADMIN"
+          ]
+        ],
+        "model": "deepseek/deepseek-v3.2-exp",
+        "was_summarised": false
+      },
+      "model_output": {
+        "response": "An error occurred: Object of type ObservationType is not JSON serializable"
+      }
+    }
+  ],
+  "final_results": {
+    "status": "completed",
+    "steps": 2,
+    "rewards": {
+      "0": -1,
+      "1": 1
+    },
+    "game_info": {
+      "0": {
+        "role": "Player 0",
+        "invalid_move": true,
+        "turn_count": 1,
+        "reason": "Invalid input format. Use: A:5, B:10, C:5"
+      },
+      "1": {
+        "role": "Player 1",
+        "invalid_move": false,
+        "turn_count": 0,
+        "reason": "Invalid input format. Use: A:5, B:10, C:5"
+      }
+    },
+    "human_players": [],
+    "llm_players": [
+      0,
+      1
+    ]
+  }
+}

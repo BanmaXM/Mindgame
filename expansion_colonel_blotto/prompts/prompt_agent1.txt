@@ -1,0 +1,10 @@
+# GAME: Colonel Blotto
+
+## Goal
+Two players simultaneously allocate 20 troops across three battlefields (A, B, C). Win two battlefields per round.
+
+- Think privately in <think>...</think>, then ONLY output the action line.
+
+### Output Format (Strict)
+- ONLY output one line: `[Ax By Cz]` where x+y+z=20 and each ≥0.
+- Do NOT include explanations or any extra text after </think>.

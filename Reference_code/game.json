@@ -1,0 +1,189 @@
+{
+  "game_name": "colonel_blotto",
+  "timestamp": "2025-08-15T12:52:01.943Z",
+  "steps": [
+    {
+      "step_num": 0,
+      "player_id": 0,
+      "timestamp": "2025-08-15T12:52:03.156590",
+      "observation": "\n[GAME] You are Commander Alpha in a game of ColonelBlotto. Each round, you have to allocate exactly 20 units across fields: A, B, C\nFormat: '[A4 B2 C2]'\nWin the majority of fields to win the round!\n[GAME] === COLONEL BLOTTO - Round 1/9 ===\nRounds Won - Commander Alpha: 0, Commander Beta: 0\nAvailable fields: A, B, C\nUnits to allocate: 20\nFormat: '[A4 B2 C2]'.",
+      "action": "[A8 B6 C6]",
+      "model_input": {
+        "system_prompt": "You are a competitive game player. Make sure you read the game instructions carefully, and always follow the required format.",
+        "user_message": "\n[GAME] You are Commander Alpha in a game of ColonelBlotto. Each round, you have to allocate exactly 20 units across fields: A, B, C\nFormat: '[A4 B2 C2]'\nWin the majority of fields to win the round!\n[GAME] === COLONEL BLOTTO - Round 1/9 ===\nRounds Won - Commander Alpha: 0, Commander Beta: 0\nAvailable fields: A, B, C\nUnits to allocate: 20\nFormat: '[A4 B2 C2]'.",
+        "model": "yinita/qwen3-8b-v1-lora-0812-3epochs"
+      },
+      "model_output": {
+        "response": "[A8 B6 C6]"
+      }
+    },
+    {
+      "step_num": 1,
+      "player_id": 1,
+      "timestamp": "2025-08-15T12:52:03.315543",
+      "observation": "\n[GAME] You are Commander Beta in a game of ColonelBlotto. Each round, you have to allocate exactly 20 units across fields: A, B, C\nFormat: '[A4 B2 C2]'\nWin the majority of fields to win the round!\n[GAME] === COLONEL BLOTTO - Round 1/9 ===\nRounds Won - Commander Alpha: 0, Commander Beta: 0\nAvailable fields: A, B, C\nUnits to allocate: 20\nFormat: '[A4 B2 C2]'.",
+      "action": "[A5 B8 C7]",
+      "model_input": {
+        "system_prompt": "You are a competitive game player. Make sure you read the game instructions carefully, and always follow the required format.",
+        "user_message": "\n[GAME] You are Commander Beta in a game of ColonelBlotto. Each round, you have to allocate exactly 20 units across fields: A, B, C\nFormat: '[A4 B2 C2]'\nWin the majority of fields to win the round!\n[GAME] === COLONEL BLOTTO - Round 1/9 ===\nRounds Won - Commander Alpha: 0, Commander Beta: 0\nAvailable fields: A, B, C\nUnits to allocate: 20\nFormat: '[A4 B2 C2]'.",
+        "model": "yinita/qwen3-8b-v2-gpt5-distill-lora-0814-3epochs"
+      },
+      "model_output": {
+        "response": "[A5 B8 C7]"
+      }
+    },
+    {
+      "step_num": 2,
+      "player_id": 0,
+      "timestamp": "2025-08-15T12:52:03.627708",
+      "observation": "\n[GAME] You are Commander Alpha in a game of ColonelBlotto. Each round, you have to allocate exactly 20 units across fields: A, B, C\nFormat: '[A4 B2 C2]'\nWin the majority of fields to win the round!\n[GAME] === COLONEL BLOTTO - Round 1/9 ===\nRounds Won - Commander Alpha: 0, Commander Beta: 0\nAvailable fields: A, B, C\nUnits to allocate: 20\nFormat: '[A4 B2 C2]'.\n[Commander Alpha] [A8 B6 C6]\n[GAME] \nRound 1\nCommander Alpha allocated: A: 8 , B: 6 , C: 6 \nCommander Beta allocated:  A: 5 , B: 8 , C: 7 \nWinner: Commander Beta\n[GAME] === COLONEL BLOTTO - Round 2/9 ===\nRounds Won - Commander Alpha: 0, Commander Beta: 1\nAvailable fields: A, B, C\nUnits to allocate: 20\nFormat: '[A4 B2 C2]'.",
+      "action": "[A7 B7 C6]",
+      "model_input": {
+        "system_prompt": "You are a competitive game player. Make sure you read the game instructions carefully, and always follow the required format.",
+        "user_message": "\n[GAME] You are Commander Alpha in a game of ColonelBlotto. Each round, you have to allocate exactly 20 units across fields: A, B, C\nFormat: '[A4 B2 C2]'\nWin the majority of fields to win the round!\n[GAME] === COLONEL BLOTTO - Round 1/9 ===\nRounds Won - Commander Alpha: 0, Commander Beta: 0\nAvailable fields: A, B, C\nUnits to allocate: 20\nFormat: '[A4 B2 C2]'.\n[Commander Alpha] [A8 B6 C6]\n[GAME] \nRound 1\nCommander Alpha allocated: A: 8 , B: 6 , C: 6 \nCommander Beta allocated:  A: 5 , B: 8 , C: 7 \nWinner: Commander Beta\n[GAME] === COLONEL BLOTTO - Round 2/9 ===\nRounds Won - Commander Alpha: 0, Commander Beta: 1\nAvailable fields: A, B, C\nUnits to allocate: 20\nFormat: '[A4 B2 C2]'.",
+        "model": "yinita/qwen3-8b-v1-lora-0812-3epochs"
+      },
+      "model_output": {
+        "response": "[A7 B7 C6]"
+      }
+    },
+    {
+      "step_num": 3,
+      "player_id": 1,
+      "timestamp": "2025-08-15T12:52:03.858780",
+      "observation": "\n[GAME] You are Commander Beta in a game of ColonelBlotto. Each round, you have to allocate exactly 20 units across fields: A, B, C\nFormat: '[A4 B2 C2]'\nWin the majority of fields to win the round!\n[GAME] === COLONEL BLOTTO - Round 1/9 ===\nRounds Won - Commander Alpha: 0, Commander Beta: 0\nAvailable fields: A, B, C\nUnits to allocate: 20\nFormat: '[A4 B2 C2]'.\n[Commander Beta] [A5 B8 C7]\n[GAME] \nRound 1\nCommander Alpha allocated: A: 8 , B: 6 , C: 6 \nCommander Beta allocated:  A: 5 , B: 8 , C: 7 \nWinner: Commander Beta\n[GAME] === COLONEL BLOTTO - Round 2/9 ===\nRounds Won - Commander Alpha: 0, Commander Beta: 1\nAvailable fields: A, B, C\nUnits to allocate: 20\nFormat: '[A4 B2 C2]'.",
+      "action": "[A4 B8 C8]",
+      "model_input": {
+        "system_prompt": "You are a competitive game player. Make sure you read the game instructions carefully, and always follow the required format.",
+        "user_message": "\n[GAME] You are Commander Beta in a game of ColonelBlotto. Each round, you have to allocate exactly 20 units across fields: A, B, C\nFormat: '[A4 B2 C2]'\nWin the majority of fields to win the round!\n[GAME] === COLONEL BLOTTO - Round 1/9 ===\nRounds Won - Commander Alpha: 0, Commander Beta: 0\nAvailable fields: A, B, C\nUnits to allocate: 20\nFormat: '[A4 B2 C2]'.\n[Commander Beta] [A5 B8 C7]\n[GAME] \nRound 1\nCommander Alpha allocated: A: 8 , B: 6 , C: 6 \nCommander Beta allocated:  A: 5 , B: 8 , C: 7 \nWinner: Commander Beta\n[GAME] === COLONEL BLOTTO - Round 2/9 ===\nRounds Won - Commander Alpha: 0, Commander Beta: 1\nAvailable fields: A, B, C\nUnits to allocate: 20\nFormat: '[A4 B2 C2]'.",
+        "model": "yinita/qwen3-8b-v2-gpt5-distill-lora-0814-3epochs"
+      },
+      "model_output": {
+        "response": "[A4 B8 C8]"
+      }
+    },
+    {
+      "step_num": 4,
+      "player_id": 0,
+      "timestamp": "2025-08-15T12:52:04.028958",
+      "observation": "\n[GAME] You are Commander Alpha in a game of ColonelBlotto. Each round, you have to allocate exactly 20 units across fields: A, B, C\nFormat: '[A4 B2 C2]'\nWin the majority of fields to win the round!\n[GAME] === COLONEL BLOTTO - Round 1/9 ===\nRounds Won - Commander Alpha: 0, Commander Beta: 0\nAvailable fields: A, B, C\nUnits to allocate: 20\nFormat: '[A4 B2 C2]'.\n[Commander Alpha] [A8 B6 C6]\n[GAME] \nRound 1\nCommander Alpha allocated: A: 8 , B: 6 , C: 6 \nCommander Beta allocated:  A: 5 , B: 8 , C: 7 \nWinner: Commander Beta\n[GAME] === COLONEL BLOTTO - Round 2/9 ===\nRounds Won - Commander Alpha: 0, Commander Beta: 1\nAvailable fields: A, B, C\nUnits to allocate: 20\nFormat: '[A4 B2 C2]'.\n[Commander Alpha] [A7 B7 C6]\n[GAME] \nRound 2\nCommander Alpha allocated: A: 7 , B: 7 , C: 6 \nCommander Beta allocated:  A: 4 , B: 8 , C: 8 \nWinner: Commander Beta\n[GAME] === COLONEL BLOTTO - Round 3/9 ===\nRounds Won - Commander Alpha: 0, Commander Beta: 2\nAvailable fields: A, B, C\nUnits to allocate: 20\nFormat: '[A4 B2 C2]'.",
+      "action": "[A9 B6 C5]",
+      "model_input": {
+        "system_prompt": "You are a competitive game player. Make sure you read the game instructions carefully, and always follow the required format.",
+        "user_message": "\n[GAME] You are Commander Alpha in a game of ColonelBlotto. Each round, you have to allocate exactly 20 units across fields: A, B, C\nFormat: '[A4 B2 C2]'\nWin the majority of fields to win the round!\n[GAME] === COLONEL BLOTTO - Round 1/9 ===\nRounds Won - Commander Alpha: 0, Commander Beta: 0\nAvailable fields: A, B, C\nUnits to allocate: 20\nFormat: '[A4 B2 C2]'.\n[Commander Alpha] [A8 B6 C6]\n[GAME] \nRound 1\nCommander Alpha allocated: A: 8 , B: 6 , C: 6 \nCommander Beta allocated:  A: 5 , B: 8 , C: 7 \nWinner: Commander Beta\n[GAME] === COLONEL BLOTTO - Round 2/9 ===\nRounds Won - Commander Alpha: 0, Commander Beta: 1\nAvailable fields: A, B, C\nUnits to allocate: 20\nFormat: '[A4 B2 C2]'.\n[Commander Alpha] [A7 B7 C6]\n[GAME] \nRound 2\nCommander Alpha allocated: A: 7 , B: 7 , C: 6 \nCommander Beta allocated:  A: 4 , B: 8 , C: 8 \nWinner: Commander Beta\n[GAME] === COLONEL BLOTTO - Round 3/9 ===\nRounds Won - Commander Alpha: 0, Commander Beta: 2\nAvailable fields: A, B, C\nUnits to allocate: 20\nFormat: '[A4 B2 C2]'.",
+        "model": "yinita/qwen3-8b-v1-lora-0812-3epochs"
+      },
+      "model_output": {
+        "response": "[A9 B6 C5]"
+      }
+    },
+    {
+      "step_num": 5,
+      "player_id": 1,
+      "timestamp": "2025-08-15T12:52:04.227046",
+      "observation": "\n[GAME] You are Commander Beta in a game of ColonelBlotto. Each round, you have to allocate exactly 20 units across fields: A, B, C\nFormat: '[A4 B2 C2]'\nWin the majority of fields to win the round!\n[GAME] === COLONEL BLOTTO - Round 1/9 ===\nRounds Won - Commander Alpha: 0, Commander Beta: 0\nAvailable fields: A, B, C\nUnits to allocate: 20\nFormat: '[A4 B2 C2]'.\n[Commander Beta] [A5 B8 C7]\n[GAME] \nRound 1\nCommander Alpha allocated: A: 8 , B: 6 , C: 6 \nCommander Beta allocated:  A: 5 , B: 8 , C: 7 \nWinner: Commander Beta\n[GAME] === COLONEL BLOTTO - Round 2/9 ===\nRounds Won - Commander Alpha: 0, Commander Beta: 1\nAvailable fields: A, B, C\nUnits to allocate: 20\nFormat: '[A4 B2 C2]'.\n[Commander Beta] [A4 B8 C8]\n[GAME] \nRound 2\nCommander Alpha allocated: A: 7 , B: 7 , C: 6 \nCommander Beta allocated:  A: 4 , B: 8 , C: 8 \nWinner: Commander Beta\n[GAME] === COLONEL BLOTTO - Round 3/9 ===\nRounds Won - Commander Alpha: 0, Commander Beta: 2\nAvailable fields: A, B, C\nUnits to allocate: 20\nFormat: '[A4 B2 C2]'.",
+      "action": "[A3 B10 C7]",
+      "model_input": {
+        "system_prompt": "You are a competitive game player. Make sure you read the game instructions carefully, and always follow the required format.",
+        "user_message": "\n[GAME] You are Commander Beta in a game of ColonelBlotto. Each round, you have to allocate exactly 20 units across fields: A, B, C\nFormat: '[A4 B2 C2]'\nWin the majority of fields to win the round!\n[GAME] === COLONEL BLOTTO - Round 1/9 ===\nRounds Won - Commander Alpha: 0, Commander Beta: 0\nAvailable fields: A, B, C\nUnits to allocate: 20\nFormat: '[A4 B2 C2]'.\n[Commander Beta] [A5 B8 C7]\n[GAME] \nRound 1\nCommander Alpha allocated: A: 8 , B: 6 , C: 6 \nCommander Beta allocated:  A: 5 , B: 8 , C: 7 \nWinner: Commander Beta\n[GAME] === COLONEL BLOTTO - Round 2/9 ===\nRounds Won - Commander Alpha: 0, Commander Beta: 1\nAvailable fields: A, B, C\nUnits to allocate: 20\nFormat: '[A4 B2 C2]'.\n[Commander Beta] [A4 B8 C8]\n[GAME] \nRound 2\nCommander Alpha allocated: A: 7 , B: 7 , C: 6 \nCommander Beta allocated:  A: 4 , B: 8 , C: 8 \nWinner: Commander Beta\n[GAME] === COLONEL BLOTTO - Round 3/9 ===\nRounds Won - Commander Alpha: 0, Commander Beta: 2\nAvailable fields: A, B, C\nUnits to allocate: 20\nFormat: '[A4 B2 C2]'.",
+        "model": "yinita/qwen3-8b-v2-gpt5-distill-lora-0814-3epochs"
+      },
+      "model_output": {
+        "response": "[A3 B10 C7]"
+      }
+    },
+    {
+      "step_num": 6,
+      "player_id": 0,
+      "timestamp": "2025-08-15T12:52:04.425137",
+      "observation": "\n[GAME] You are Commander Alpha in a game of ColonelBlotto. Each round, you have to allocate exactly 20 units across fields: A, B, C\nFormat: '[A4 B2 C2]'\nWin the majority of fields to win the round!\n[GAME] === COLONEL BLOTTO - Round 1/9 ===\nRounds Won - Commander Alpha: 0, Commander Beta: 0\nAvailable fields: A, B, C\nUnits to allocate: 20\nFormat: '[A4 B2 C2]'.\n[Commander Alpha] [A8 B6 C6]\n[GAME] \nRound 1\nCommander Alpha allocated: A: 8 , B: 6 , C: 6 \nCommander Beta allocated:  A: 5 , B: 8 , C: 7 \nWinner: Commander Beta\n[GAME] === COLONEL BLOTTO - Round 2/9 ===\nRounds Won - Commander Alpha: 0, Commander Beta: 1\nAvailable fields: A, B, C\nUnits to allocate: 20\nFormat: '[A4 B2 C2]'.\n[Commander Alpha] [A7 B7 C6]\n[GAME] \nRound 2\nCommander Alpha allocated: A: 7 , B: 7 , C: 6 \nCommander Beta allocated:  A: 4 , B: 8 , C: 8 \nWinner: Commander Beta\n[GAME] === COLONEL BLOTTO - Round 3/9 ===\nRounds Won - Commander Alpha: 0, Commander Beta: 2\nAvailable fields: A, B, C\nUnits to allocate: 20\nFormat: '[A4 B2 C2]'.\n[Commander Alpha] [A9 B6 C5]\n[GAME] \nRound 3\nCommander Alpha allocated: A: 9 , B: 6 , C: 5 \nCommander Beta allocated:  A: 3 , B: 10, C: 7 \nWinner: Commander Beta\n[GAME] === COLONEL BLOTTO - Round 4/9 ===\nRounds Won - Commander Alpha: 0, Commander Beta: 3\nAvailable fields: A, B, C\nUnits to allocate: 20\nFormat: '[A4 B2 C2]'.",
+      "action": "[A6 B7 C7]",
+      "model_input": {
+        "system_prompt": "You are a competitive game player. Make sure you read the game instructions carefully, and always follow the required format.",
+        "user_message": "\n[GAME] You are Commander Alpha in a game of ColonelBlotto. Each round, you have to allocate exactly 20 units across fields: A, B, C\nFormat: '[A4 B2 C2]'\nWin the majority of fields to win the round!\n[GAME] === COLONEL BLOTTO - Round 1/9 ===\nRounds Won - Commander Alpha: 0, Commander Beta: 0\nAvailable fields: A, B, C\nUnits to allocate: 20\nFormat: '[A4 B2 C2]'.\n[Commander Alpha] [A8 B6 C6]\n[GAME] \nRound 1\nCommander Alpha allocated: A: 8 , B: 6 , C: 6 \nCommander Beta allocated:  A: 5 , B: 8 , C: 7 \nWinner: Commander Beta\n[GAME] === COLONEL BLOTTO - Round 2/9 ===\nRounds Won - Commander Alpha: 0, Commander Beta: 1\nAvailable fields: A, B, C\nUnits to allocate: 20\nFormat: '[A4 B2 C2]'.\n[Commander Alpha] [A7 B7 C6]\n[GAME] \nRound 2\nCommander Alpha allocated: A: 7 , B: 7 , C: 6 \nCommander Beta allocated:  A: 4 , B: 8 , C: 8 \nWinner: Commander Beta\n[GAME] === COLONEL BLOTTO - Round 3/9 ===\nRounds Won - Commander Alpha: 0, Commander Beta: 2\nAvailable fields: A, B, C\nUnits to allocate: 20\nFormat: '[A4 B2 C2]'.\n[Commander Alpha] [A9 B6 C5]\n[GAME] \nRound 3\nCommander Alpha allocated: A: 9 , B: 6 , C: 5 \nCommander Beta allocated:  A: 3 , B: 10, C: 7 \nWinner: Commander Beta\n[GAME] === COLONEL BLOTTO - Round 4/9 ===\nRounds Won - Commander Alpha: 0, Commander Beta: 3\nAvailable fields: A, B, C\nUnits to allocate: 20\nFormat: '[A4 B2 C2]'.",
+        "model": "yinita/qwen3-8b-v1-lora-0812-3epochs"
+      },
+      "model_output": {
+        "response": "[A6 B7 C7]"
+      }
+    },
+    {
+      "step_num": 7,
+      "player_id": 1,
+      "timestamp": "2025-08-15T12:52:04.584016",
+      "observation": "\n[GAME] You are Commander Beta in a game of ColonelBlotto. Each round, you have to allocate exactly 20 units across fields: A, B, C\nFormat: '[A4 B2 C2]'\nWin the majority of fields to win the round!\n[GAME] === COLONEL BLOTTO - Round 1/9 ===\nRounds Won - Commander Alpha: 0, Commander Beta: 0\nAvailable fields: A, B, C\nUnits to allocate: 20\nFormat: '[A4 B2 C2]'.\n[Commander Beta] [A5 B8 C7]\n[GAME] \nRound 1\nCommander Alpha allocated: A: 8 , B: 6 , C: 6 \nCommander Beta allocated:  A: 5 , B: 8 , C: 7 \nWinner: Commander Beta\n[GAME] === COLONEL BLOTTO - Round 2/9 ===\nRounds Won - Commander Alpha: 0, Commander Beta: 1\nAvailable fields: A, B, C\nUnits to allocate: 20\nFormat: '[A4 B2 C2]'.\n[Commander Beta] [A4 B8 C8]\n[GAME] \nRound 2\nCommander Alpha allocated: A: 7 , B: 7 , C: 6 \nCommander Beta allocated:  A: 4 , B: 8 , C: 8 \nWinner: Commander Beta\n[GAME] === COLONEL BLOTTO - Round 3/9 ===\nRounds Won - Commander Alpha: 0, Commander Beta: 2\nAvailable fields: A, B, C\nUnits to allocate: 20\nFormat: '[A4 B2 C2]'.\n[Commander Beta] [A3 B10 C7]\n[GAME] \nRound 3\nCommander Alpha allocated: A: 9 , B: 6 , C: 5 \nCommander Beta allocated:  A: 3 , B: 10, C: 7 \nWinner: Commander Beta\n[GAME] === COLONEL BLOTTO - Round 4/9 ===\nRounds Won - Commander Alpha: 0, Commander Beta: 3\nAvailable fields: A, B, C\nUnits to allocate: 20\nFormat: '[A4 B2 C2]'.",
+      "action": "[A7 B8 C5]",
+      "model_input": {
+        "system_prompt": "You are a competitive game player. Make sure you read the game instructions carefully, and always follow the required format.",
+        "user_message": "\n[GAME] You are Commander Beta in a game of ColonelBlotto. Each round, you have to allocate exactly 20 units across fields: A, B, C\nFormat: '[A4 B2 C2]'\nWin the majority of fields to win the round!\n[GAME] === COLONEL BLOTTO - Round 1/9 ===\nRounds Won - Commander Alpha: 0, Commander Beta: 0\nAvailable fields: A, B, C\nUnits to allocate: 20\nFormat: '[A4 B2 C2]'.\n[Commander Beta] [A5 B8 C7]\n[GAME] \nRound 1\nCommander Alpha allocated: A: 8 , B: 6 , C: 6 \nCommander Beta allocated:  A: 5 , B: 8 , C: 7 \nWinner: Commander Beta\n[GAME] === COLONEL BLOTTO - Round 2/9 ===\nRounds Won - Commander Alpha: 0, Commander Beta: 1\nAvailable fields: A, B, C\nUnits to allocate: 20\nFormat: '[A4 B2 C2]'.\n[Commander Beta] [A4 B8 C8]\n[GAME] \nRound 2\nCommander Alpha allocated: A: 7 , B: 7 , C: 6 \nCommander Beta allocated:  A: 4 , B: 8 , C: 8 \nWinner: Commander Beta\n[GAME] === COLONEL BLOTTO - Round 3/9 ===\nRounds Won - Commander Alpha: 0, Commander Beta: 2\nAvailable fields: A, B, C\nUnits to allocate: 20\nFormat: '[A4 B2 C2]'.\n[Commander Beta] [A3 B10 C7]\n[GAME] \nRound 3\nCommander Alpha allocated: A: 9 , B: 6 , C: 5 \nCommander Beta allocated:  A: 3 , B: 10, C: 7 \nWinner: Commander Beta\n[GAME] === COLONEL BLOTTO - Round 4/9 ===\nRounds Won - Commander Alpha: 0, Commander Beta: 3\nAvailable fields: A, B, C\nUnits to allocate: 20\nFormat: '[A4 B2 C2]'.",
+        "model": "yinita/qwen3-8b-v2-gpt5-distill-lora-0814-3epochs"
+      },
+      "model_output": {
+        "response": "[A7 B8 C5]"
+      }
+    },
+    {
+      "step_num": 8,
+      "player_id": 0,
+      "timestamp": "2025-08-15T12:52:04.808684",
+      "observation": "\n[GAME] You are Commander Alpha in a game of ColonelBlotto. Each round, you have to allocate exactly 20 units across fields: A, B, C\nFormat: '[A4 B2 C2]'\nWin the majority of fields to win the round!\n[GAME] === COLONEL BLOTTO - Round 1/9 ===\nRounds Won - Commander Alpha: 0, Commander Beta: 0\nAvailable fields: A, B, C\nUnits to allocate: 20\nFormat: '[A4 B2 C2]'.\n[Commander Alpha] [A8 B6 C6]\n[GAME] \nRound 1\nCommander Alpha allocated: A: 8 , B: 6 , C: 6 \nCommander Beta allocated:  A: 5 , B: 8 , C: 7 \nWinner: Commander Beta\n[GAME] === COLONEL BLOTTO - Round 2/9 ===\nRounds Won - Commander Alpha: 0, Commander Beta: 1\nAvailable fields: A, B, C\nUnits to allocate: 20\nFormat: '[A4 B2 C2]'.\n[Commander Alpha] [A7 B7 C6]\n[GAME] \nRound 2\nCommander Alpha allocated: A: 7 , B: 7 , C: 6 \nCommander Beta allocated:  A: 4 , B: 8 , C: 8 \nWinner: Commander Beta\n[GAME] === COLONEL BLOTTO - Round 3/9 ===\nRounds Won - Commander Alpha: 0, Commander Beta: 2\nAvailable fields: A, B, C\nUnits to allocate: 20\nFormat: '[A4 B2 C2]'.\n[Commander Alpha] [A9 B6 C5]\n[GAME] \nRound 3\nCommander Alpha allocated: A: 9 , B: 6 , C: 5 \nCommander Beta allocated:  A: 3 , B: 10, C: 7 \nWinner: Commander Beta\n[GAME] === COLONEL BLOTTO - Round 4/9 ===\nRounds Won - Commander Alpha: 0, Commander Beta: 3\nAvailable fields: A, B, C\nUnits to allocate: 20\nFormat: '[A4 B2 C2]'.\n[Commander Alpha] [A6 B7 C7]\n[GAME] \nRound 4\nCommander Alpha allocated: A: 6 , B: 7 , C: 7 \nCommander Beta allocated:  A: 7 , B: 8 , C: 5 \nWinner: Commander Beta\n[GAME] === COLONEL BLOTTO - Round 5/9 ===\nRounds Won - Commander Alpha: 0, Commander Beta: 4\nAvailable fields: A, B, C\nUnits to allocate: 20\nFormat: '[A4 B2 C2]'.",
+      "action": "[A10 B5 C5]",
+      "model_input": {
+        "system_prompt": "You are a competitive game player. Make sure you read the game instructions carefully, and always follow the required format.",
+        "user_message": "\n[GAME] You are Commander Alpha in a game of ColonelBlotto. Each round, you have to allocate exactly 20 units across fields: A, B, C\nFormat: '[A4 B2 C2]'\nWin the majority of fields to win the round!\n[GAME] === COLONEL BLOTTO - Round 1/9 ===\nRounds Won - Commander Alpha: 0, Commander Beta: 0\nAvailable fields: A, B, C\nUnits to allocate: 20\nFormat: '[A4 B2 C2]'.\n[Commander Alpha] [A8 B6 C6]\n[GAME] \nRound 1\nCommander Alpha allocated: A: 8 , B: 6 , C: 6 \nCommander Beta allocated:  A: 5 , B: 8 , C: 7 \nWinner: Commander Beta\n[GAME] === COLONEL BLOTTO - Round 2/9 ===\nRounds Won - Commander Alpha: 0, Commander Beta: 1\nAvailable fields: A, B, C\nUnits to allocate: 20\nFormat: '[A4 B2 C2]'.\n[Commander Alpha] [A7 B7 C6]\n[GAME] \nRound 2\nCommander Alpha allocated: A: 7 , B: 7 , C: 6 \nCommander Beta allocated:  A: 4 , B: 8 , C: 8 \nWinner: Commander Beta\n[GAME] === COLONEL BLOTTO - Round 3/9 ===\nRounds Won - Commander Alpha: 0, Commander Beta: 2\nAvailable fields: A, B, C\nUnits to allocate: 20\nFormat: '[A4 B2 C2]'.\n[Commander Alpha] [A9 B6 C5]\n[GAME] \nRound 3\nCommander Alpha allocated: A: 9 , B: 6 , C: 5 \nCommander Beta allocated:  A: 3 , B: 10, C: 7 \nWinner: Commander Beta\n[GAME] === COLONEL BLOTTO - Round 4/9 ===\nRounds Won - Commander Alpha: 0, Commander Beta: 3\nAvailable fields: A, B, C\nUnits to allocate: 20\nFormat: '[A4 B2 C2]'.\n[Commander Alpha] [A6 B7 C7]\n[GAME] \nRound 4\nCommander Alpha allocated: A: 6 , B: 7 , C: 7 \nCommander Beta allocated:  A: 7 , B: 8 , C: 5 \nWinner: Commander Beta\n[GAME] === COLONEL BLOTTO - Round 5/9 ===\nRounds Won - Commander Alpha: 0, Commander Beta: 4\nAvailable fields: A, B, C\nUnits to allocate: 20\nFormat: '[A4 B2 C2]'.",
+        "model": "yinita/qwen3-8b-v1-lora-0812-3epochs"
+      },
+      "model_output": {
+        "response": "[A10 B5 C5]"
+      }
+    },
+    {
+      "step_num": 9,
+      "player_id": 1,
+      "timestamp": "2025-08-15T12:52:05.010143",
+      "observation": "\n[GAME] You are Commander Beta in a game of ColonelBlotto. Each round, you have to allocate exactly 20 units across fields: A, B, C\nFormat: '[A4 B2 C2]'\nWin the majority of fields to win the round!\n[GAME] === COLONEL BLOTTO - Round 1/9 ===\nRounds Won - Commander Alpha: 0, Commander Beta: 0\nAvailable fields: A, B, C\nUnits to allocate: 20\nFormat: '[A4 B2 C2]'.\n[Commander Beta] [A5 B8 C7]\n[GAME] \nRound 1\nCommander Alpha allocated: A: 8 , B: 6 , C: 6 \nCommander Beta allocated:  A: 5 , B: 8 , C: 7 \nWinner: Commander Beta\n[GAME] === COLONEL BLOTTO - Round 2/9 ===\nRounds Won - Commander Alpha: 0, Commander Beta: 1\nAvailable fields: A, B, C\nUnits to allocate: 20\nFormat: '[A4 B2 C2]'.\n[Commander Beta] [A4 B8 C8]\n[GAME] \nRound 2\nCommander Alpha allocated: A: 7 , B: 7 , C: 6 \nCommander Beta allocated:  A: 4 , B: 8 , C: 8 \nWinner: Commander Beta\n[GAME] === COLONEL BLOTTO - Round 3/9 ===\nRounds Won - Commander Alpha: 0, Commander Beta: 2\nAvailable fields: A, B, C\nUnits to allocate: 20\nFormat: '[A4 B2 C2]'.\n[Commander Beta] [A3 B10 C7]\n[GAME] \nRound 3\nCommander Alpha allocated: A: 9 , B: 6 , C: 5 \nCommander Beta allocated:  A: 3 , B: 10, C: 7 \nWinner: Commander Beta\n[GAME] === COLONEL BLOTTO - Round 4/9 ===\nRounds Won - Commander Alpha: 0, Commander Beta: 3\nAvailable fields: A, B, C\nUnits to allocate: 20\nFormat: '[A4 B2 C2]'.\n[Commander Beta] [A7 B8 C5]\n[GAME] \nRound 4\nCommander Alpha allocated: A: 6 , B: 7 , C: 7 \nCommander Beta allocated:  A: 7 , B: 8 , C: 5 \nWinner: Commander Beta\n[GAME] === COLONEL BLOTTO - Round 5/9 ===\nRounds Won - Commander Alpha: 0, Commander Beta: 4\nAvailable fields: A, B, C\nUnits to allocate: 20\nFormat: '[A4 B2 C2]'.",
+      "action": "[A5 B8 C7]",
+      "model_input": {
+        "system_prompt": "You are a competitive game player. Make sure you read the game instructions carefully, and always follow the required format.",
+        "user_message": "\n[GAME] You are Commander Beta in a game of ColonelBlotto. Each round, you have to allocate exactly 20 units across fields: A, B, C\nFormat: '[A4 B2 C2]'\nWin the majority of fields to win the round!\n[GAME] === COLONEL BLOTTO - Round 1/9 ===\nRounds Won - Commander Alpha: 0, Commander Beta: 0\nAvailable fields: A, B, C\nUnits to allocate: 20\nFormat: '[A4 B2 C2]'.\n[Commander Beta] [A5 B8 C7]\n[GAME] \nRound 1\nCommander Alpha allocated: A: 8 , B: 6 , C: 6 \nCommander Beta allocated:  A: 5 , B: 8 , C: 7 \nWinner: Commander Beta\n[GAME] === COLONEL BLOTTO - Round 2/9 ===\nRounds Won - Commander Alpha: 0, Commander Beta: 1\nAvailable fields: A, B, C\nUnits to allocate: 20\nFormat: '[A4 B2 C2]'.\n[Commander Beta] [A4 B8 C8]\n[GAME] \nRound 2\nCommander Alpha allocated: A: 7 , B: 7 , C: 6 \nCommander Beta allocated:  A: 4 , B: 8 , C: 8 \nWinner: Commander Beta\n[GAME] === COLONEL BLOTTO - Round 3/9 ===\nRounds Won - Commander Alpha: 0, Commander Beta: 2\nAvailable fields: A, B, C\nUnits to allocate: 20\nFormat: '[A4 B2 C2]'.\n[Commander Beta] [A3 B10 C7]\n[GAME] \nRound 3\nCommander Alpha allocated: A: 9 , B: 6 , C: 5 \nCommander Beta allocated:  A: 3 , B: 10, C: 7 \nWinner: Commander Beta\n[GAME] === COLONEL BLOTTO - Round 4/9 ===\nRounds Won - Commander Alpha: 0, Commander Beta: 3\nAvailable fields: A, B, C\nUnits to allocate: 20\nFormat: '[A4 B2 C2]'.\n[Commander Beta] [A7 B8 C5]\n[GAME] \nRound 4\nCommander Alpha allocated: A: 6 , B: 7 , C: 7 \nCommander Beta allocated:  A: 7 , B: 8 , C: 5 \nWinner: Commander Beta\n[GAME] === COLONEL BLOTTO - Round 5/9 ===\nRounds Won - Commander Alpha: 0, Commander Beta: 4\nAvailable fields: A, B, C\nUnits to allocate: 20\nFormat: '[A4 B2 C2]'.",
+        "model": "yinita/qwen3-8b-v2-gpt5-distill-lora-0814-3epochs"
+      },
+      "model_output": {
+        "response": "[A5 B8 C7]"
+      }
+    }
+  ],
+  "agents": {
+    "0": {
+      "agent_type": "OpenAIAgent",
+      "model_name": "yinita/qwen3-8b-v1-lora-0812-3epochs"
+    },
+    "1": {
+      "agent_type": "OpenAIAgent",
+      "model_name": "yinita/qwen3-8b-v2-gpt5-distill-lora-0814-3epochs"
+    }
+  },
+  "final_results": {
+    "rewards": {
+      "1": 1,
+      "0": -1
+    },
+    "game_info": {
+      "0": {
+        "role": "Player 0",
+        "invalid_move": false,
+        "turn_count": 5,
+        "reason": "Commander Beta wins 5-0 (majority achieved)!"
+      },
+      "1": {
+        "role": "Player 1",
+        "invalid_move": false,
+        "turn_count": 5,
+        "reason": "Commander Beta wins 5-0 (majority achieved)!"
+      }
+    },
+    "timestamp": "2025-08-15T12:52:05.010274",
+    "status": "completed",
+    "total_steps": 10
+  }
+}

@@ -1,0 +1,8 @@
+model: "openai/gpt-5-mini"
+api_key: "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"
+api_base: "https://openrouter.ai/api/v1"
+temperature: 0.7
+max_tokens: 16000
+top_p: 1.0
+frequency_penalty: 0
+presence_penalty: 0

@@ -1,0 +1,18 @@
+# Patterns to scrub common API keys and secrets across history
+# Each entry is two lines: first the pattern (with optional 'regex:' prefix), then the replacement.
+
+# Generic OpenAI-style secret keys
+regex:(?i)sk-[A-Za-z0-9_\-]{20,}
+REDACTED
+
+# Common environment/config variable assignments holding secrets
+regex:(?i)(OPENAI_API_KEY|OPENROUTER_API_KEY|ANTHROPIC_API_KEY|DEEPSEEK_API_KEY|TOGETHER_API_KEY|HUGGINGFACEHUB_API_TOKEN|HF_API_TOKEN|AWS_ACCESS_KEY_ID|AWS_SECRET_ACCESS_KEY|GITHUB_TOKEN|GH_TOKEN|NPM_TOKEN|API_KEY|API-KEY|APIKEY)\s*[:=]\s*[^\n]*
+REDACTED
+
+# Generic 'token' assignments
+regex:(?i)(token)\s*[:=]\s*[^\n]*
+REDACTED
+
+# Private key blocks
+regex:(?s)-----BEGIN [^-]+ PRIVATE KEY-----.*?-----END [^-]+ PRIVATE KEY-----
+REDACTED_PRIVATE_KEY_BLOCK
